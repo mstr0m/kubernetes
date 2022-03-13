@@ -10,3 +10,6 @@ apt-get install -y kubelet=1.20.1-00 kubeadm=1.20.1-00 kubectl=1.20.1-00
 
 #On Master node
 #kubeadm init --pod-network-cidr=10.244.0.0/16
+
+#On Worker node
+#join with token
