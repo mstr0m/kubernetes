@@ -1,0 +1,7 @@
+kubeadm join 172.31.86.9:6443 --token 9fv3v3.stzlyph06m8hx5i8 \
+    --discovery-token-ca-cert-hash sha256:4600d9e5513d34ef7c3b08f19a607ca0267bd12785af9409b292031127057378
+
+
+kubectl get pods --all-namespaces -o wide
+
+kubectl get ns
