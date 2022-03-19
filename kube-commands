@@ -15,4 +15,9 @@ kubectl apply -f yamls/1.yaml -n testing-env
 
 kubectl logs POD_NAME -f
 
+# Replicaset scaling
 kubectl scale replicaset.apps/frontend --replicas=5
+
+# Deployment power
+kubectl set image deployment.XXXX nginx=qqq/ngix:v2
+kubectl rollout undo deployment.XXXX
