@@ -14,3 +14,5 @@ kubectl create ns testing-env
 kubectl apply -f yamls/1.yaml -n testing-env
 
 kubectl logs POD_NAME -f
+
+kubectl scale replicaset.apps/frontend --replicas=5
