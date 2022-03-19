@@ -4,7 +4,7 @@ metadata:
   name: internal-service
 spec:
   selector:
-    app: TimeApp
+    app: nginx
   type: ClusterIP
   ports:
   - name: http
