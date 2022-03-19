@@ -5,7 +5,7 @@ metadata:
   labels:
     app: MyApp
 spec:
-  container:
+  containers:
   - name: nginx
     image: nginx
     ports:
