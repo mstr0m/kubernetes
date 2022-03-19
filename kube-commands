@@ -8,4 +8,7 @@ kubectl get ns
 
 
 
-kubectl apply -f yamls/first.yml
+kubectl apply -f yamls/1.yml
+
+kubectl create ns testing-env
+kubectl apply -f yamls/1.yaml -n testing-env
