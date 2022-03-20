@@ -21,3 +21,8 @@ kubectl scale replicaset.apps/frontend --replicas=5
 # Deployment power
 kubectl set image deployment.XXXX nginx=qqq/ngix:v2
 kubectl rollout undo deployment.XXXX
+
+# persistant storage
+kubectl get pv
+
+
